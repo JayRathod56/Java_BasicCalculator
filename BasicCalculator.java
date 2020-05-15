@@ -24,7 +24,11 @@ public class BasicCalculator {
             Multiplication.mainM();
         } else if (choice.equals("4") || choice.equals("division") || choice.equals("Division")) {
             Division.mainD();
-        }
+        } else if (choice.equals("5") || choice.equals("factorial") || choice.equals("Factorial")) {
+            Factorial_and_Fibonaicc.Factorial();
+        } else if (choice.equals("6") || choice.equals("fibonaicc") || choice.equals("Fibonaicc")) {
+            Factorial_and_Fibonaicc.Fibonaicc();
+        }        
         else {
             System.out.println("\nWrong Input Please Try Again...\n\n");
             main();
